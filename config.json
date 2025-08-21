@@ -1,0 +1,7 @@
+{
+  "clientId": "1408133296000466945",
+  "largeImageKey": "ollama",
+  "autoStart": true,
+  "autoExit": true,
+  "ollamaCmd": "ollama ps"
+}
