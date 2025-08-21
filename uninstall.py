@@ -188,9 +188,9 @@ def main():
     print()
     print("To reinstall, run:")
     if system == "Windows":
-        print("  curl -sSL https://raw.githubusercontent.com/yourusername/ollama-discord-presence/main/install.py | python")
+        print("  curl -sSL https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/install.py | python")
     else:
-        print("  curl -sSL https://raw.githubusercontent.com/yourusername/ollama-discord-presence/main/install.py | python3")
+        print("  curl -sSL https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/install.py | python3")
 
 if __name__ == "__main__":
     main()
