@@ -18,8 +18,13 @@
 
 ## 🚀 One-Click Install
 
-**Windows:**
+**Windows (PowerShell):**
 ```powershell
+curl -o install.py https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/install.py; python install.py
+```
+
+**Windows (CMD):**
+```cmd
 curl -o install.py https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/install.py && python install.py
 ```
 
@@ -30,8 +35,13 @@ curl -sSL https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/
 
 ## 🗑️ Uninstall
 
-**Windows:**
+**Windows (PowerShell):**
 ```powershell
+curl -o uninstall.py https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/uninstall.py; python uninstall.py
+```
+
+**Windows (CMD):**
+```cmd
 curl -o uninstall.py https://raw.githubusercontent.com/teodorgross/ollama-discord-presence/main/uninstall.py && python uninstall.py
 ```
 
@@ -133,5 +143,10 @@ This project demonstrates the value of Discord Rich Presence integration for Oll
 - Increased visibility of Ollama usage
 - Better community interaction
 - Enhanced user status sharing
+- No external dependencies needed
 
 ---
+
+<p align="center">
+  <sub>Made with ❤️ for the Ollama community</sub>
+</p>
